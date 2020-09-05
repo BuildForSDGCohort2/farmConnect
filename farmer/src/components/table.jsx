@@ -27,7 +27,6 @@ class Table extends Component {
   }
   render() {
   const {posts} = this.props.posts
-    // const data = [{ id: 1, title: 'Conan the Barbarian', year: '1982' }];
     const data = posts.map(post=>{
       return(
         {category:post.category, price:post.price, description:post.description}
