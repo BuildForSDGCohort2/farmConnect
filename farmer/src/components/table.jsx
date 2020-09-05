@@ -63,7 +63,7 @@ class Table extends Component {
   </div>
   <br/>
       <DataTable
-        title="Arnold S Movies"
+        title="Posts"
         columns={columns}
         data={data}
         fixedHeader={true}
